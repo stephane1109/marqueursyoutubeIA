@@ -24,7 +24,7 @@ def get_youtube_client(api_key):
     return build("youtube", "v3", developerKey=api_key)
 
 # --- INTERFACE LATERALE (SIDEBAR) ---
-st.sidebar.title("🛠️ Paramètres")
+st.sidebar.title("Paramètres")
 api_key = st.sidebar.text_input("Clé API YouTube Data v3", type="password", help="Obtenez-en une sur Google Cloud Console")
 
 search_mode = st.sidebar.radio("Mode de recherche", ["Par Mot-clé", "Par URL unique"])
