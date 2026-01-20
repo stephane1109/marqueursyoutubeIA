@@ -36,7 +36,7 @@ selected_lang = st.sidebar.selectbox("Langue de recherche (Origine)", list(lang_
 max_results = st.sidebar.slider("Nombre de vidéos (pour mot-clé)", 5, 50, 15)
 
 # --- CONTENU PRINCIPAL ---
-st.title("🔍 Détecteur de Marqueurs IA sur YouTube")
+st.title("Détecteur de Marqueurs IA sur YouTube")
 
 with st.expander("ℹ️ Comment ça fonctionne ? (Explications)"):
     st.write("""
